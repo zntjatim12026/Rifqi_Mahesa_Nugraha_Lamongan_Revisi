@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_Muhammad_Ridwan_Imam_Syafii_Revisi_3(feature, value, size, resolution, labelText,
+function categories_Rifqi_Mahesa_Nugraha_Revisi_3(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
@@ -553,27 +553,9 @@ function categories_Muhammad_Ridwan_Imam_Syafii_Revisi_3(feature, value, size, r
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 			break;
-
-        case '62':
-            return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,127,139,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(199,36,49,0.30196078431372547)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })];
-			break;
-
-        case '63':
-            return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,127,139,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(146,70,63,0.30196078431372547)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })];
-			break;
     }};
 
-var style_Muhammad_Ridwan_Imam_Syafii_Revisi_3 = function(feature, resolution){
+var style_Rifqi_Mahesa_Nugraha_Revisi_3 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -595,7 +577,7 @@ var style_Muhammad_Ridwan_Imam_Syafii_Revisi_3 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_Muhammad_Ridwan_Imam_Syafii_Revisi_3(feature, value, size, resolution, labelText,
+    var style = categories_Rifqi_Mahesa_Nugraha_Revisi_3(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 

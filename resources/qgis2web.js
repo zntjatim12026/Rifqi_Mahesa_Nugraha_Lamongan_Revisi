@@ -17,7 +17,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([1299505.925852, 9188103.923307, 1327062.966086, 9204342.319245], map.getSize());
+map.getView().fit([1290052.285445, 9217903.791495, 1317609.325679, 9234142.187433], map.getSize());
 
 //change cursor
 function pointerOnFeature(evt) {
@@ -1361,7 +1361,7 @@ document.addEventListener('DOMContentLoaded', function() {
         bottomRightContainerDiv.appendChild(attributionControl);
     }
 
-              /* === MATIKAN LAYER DATA SEBELUM DIKLIK DI LEGENDA (kecuali basemap) === */
+               /* === MATIKAN LAYER DATA SEBELUM DIKLIK DI LEGENDA (kecuali basemap) === */
 (function turnOffLayersForMobile() {
   // deteksi & matikan semua layer non-basemap di layersList
   function offIfNotBase(layer) {
